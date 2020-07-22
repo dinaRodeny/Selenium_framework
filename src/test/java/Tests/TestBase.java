@@ -44,8 +44,8 @@ public class TestBase
 		/**************************open the chrome driver**************************************************/
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\STD_Types\\chromedriver.exe");
 		driver= new ChromeDriver();
-		JavascriptExecutor jsDriver =(JavascriptExecutor) driver;
-		NgWebDriver ngdriver =new NgWebDriver(jsDriver );
+	   JavascriptExecutor jsDriver =(JavascriptExecutor) driver;
+	   NgWebDriver ngdriver =new NgWebDriver(jsDriver );
 
 		/***************************Maximize the size of the window*****************************************/
 		driver.manage().window().maximize();
@@ -69,7 +69,7 @@ public class TestBase
 	{
 
 
-		//driver.quit();
+		driver.quit();
 
 	}
 }

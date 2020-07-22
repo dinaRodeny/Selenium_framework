@@ -25,11 +25,12 @@ import Page.loginPage;
  * Test case Date:14 JUL. 2020
  * Test case regression:NO
  * Test case author: DEL
- * Test case goal:1.1-register my your name uniqque address phone number and id 
+ * Test case Steps:1.1-register my your name uniqque address phone number and id 
  *                1.2-go to my account page  check list are working correctly
  *                1.3-logout from My account page
  *                1.4-press a signup button 
  *                1.5signup again 
+ * Test goal:to check system  are working correctly->(happy scenario)        
  * Inital state:None
  * */
 	
